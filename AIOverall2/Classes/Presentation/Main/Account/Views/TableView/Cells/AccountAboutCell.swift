@@ -105,7 +105,7 @@ private extension AccountAboutCell {
     }
     
     func makePrivacyPolicyView() -> AccountActionView {
-        let view = AccountActionView(title: "Account.PrivacyPolicy".localized, separatorHidden: true) { [weak self] in
+        let view = AccountActionView(title: "Account.PrivacyPolicy".localized, separatorHidden: false) { [weak self] in
             self?.didTapPrivacyPolicy?()
         }
         view.layer.cornerRadius = 16.scale
@@ -117,7 +117,7 @@ private extension AccountAboutCell {
     }
     
     func makeTermsOfUseView() -> AccountActionView {
-        let view = AccountActionView(title: "Account.TermsOfUse".localized, separatorHidden: true) { [weak self] in
+        let view = AccountActionView(title: "Account.TermsOfUse".localized, separatorHidden: false) { [weak self] in
             self?.didTapTermsOfUse?()
         }
         view.layer.masksToBounds = true

@@ -53,6 +53,8 @@ private extension AccountHistoryCell {
         let view = AccountActionView(title: "Account.History".localized, separatorHidden: true) { [weak self] in
             self?.didTap?()
         }
+        view.layer.borderWidth = 1.scale
+        view.layer.borderColor = Appearance.main200.cgColor
         view.layer.cornerRadius = 16.scale
         view.layer.masksToBounds = true
         view.translatesAutoresizingMaskIntoConstraints = false
