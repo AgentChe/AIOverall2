@@ -144,10 +144,7 @@
 		DE258D0E2D8D63D1000AD866 /* AssistantCameraPermissionProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258C302D8D63D1000AD866 /* AssistantCameraPermissionProblemView.swift */; };
 		DE258D0F2D8D63D1000AD866 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258C812D8D63D1000AD866 /* PurchaseValidationObserver.swift */; };
 		DE258D102D8D63D1000AD866 /* PaygateProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE258C562D8D63D1000AD866 /* PaygateProductButton.swift */; };
-		DE258D112D8D63D1000AD866 /* Onboarding.Welcome2.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258C432D8D63D1000AD866 /* Onboarding.Welcome2.Animation.riv */; };
 		DE258D122D8D63D1000AD866 /* ART.Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = DE258BF92D8D63D1000AD866 /* ART.Loader.json */; };
-		DE258D132D8D63D1000AD866 /* Onboarding.Welcome3.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258C442D8D63D1000AD866 /* Onboarding.Welcome3.Animation.riv */; };
-		DE258D142D8D63D1000AD866 /* Onboarding.Welcome1.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258C422D8D63D1000AD866 /* Onboarding.Welcome1.Animation.riv */; };
 		DE258D222D8D63D9000AD866 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE258D1A2D8D63D9000AD866 /* Inter-Medium.ttf */; };
 		DE258D232D8D63D9000AD866 /* FiraMath-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE258D152D8D63D9000AD866 /* FiraMath-Regular.otf */; };
 		DE258D242D8D63D9000AD866 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE258D1B2D8D63D9000AD866 /* Inter-Regular.ttf */; };
@@ -156,6 +153,9 @@
 		DE258D272D8D63D9000AD866 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE258D182D8D63D9000AD866 /* Inter-Black.ttf */; };
 		DE258D282D8D63D9000AD866 /* FiraMath-Regular.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE258D162D8D63D9000AD866 /* FiraMath-Regular.plist */; };
 		DE258D292D8D63D9000AD866 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE258D192D8D63D9000AD866 /* Inter-Bold.ttf */; };
+		DE258D2D2D8D66E9000AD866 /* Onboarding.Welcome1.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258D2A2D8D66E9000AD866 /* Onboarding.Welcome1.Animation.riv */; };
+		DE258D2E2D8D66E9000AD866 /* Onboarding.Welcome2.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258D2B2D8D66E9000AD866 /* Onboarding.Welcome2.Animation.riv */; };
+		DE258D2F2D8D66E9000AD866 /* Onboarding.Welcome3.Animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = DE258D2C2D8D66E9000AD866 /* Onboarding.Welcome3.Animation.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,9 +256,6 @@
 		DE258C3C2D8D63D1000AD866 /* AssistantImageResizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantImageResizeViewController.swift; sourceTree = "<group>"; };
 		DE258C3D2D8D63D1000AD866 /* AssistantImageResizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantImageResizeViewModel.swift; sourceTree = "<group>"; };
 		DE258C3F2D8D63D1000AD866 /* AssistantRecognizerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantRecognizerController.swift; sourceTree = "<group>"; };
-		DE258C422D8D63D1000AD866 /* Onboarding.Welcome1.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome1.Animation.riv; sourceTree = "<group>"; };
-		DE258C432D8D63D1000AD866 /* Onboarding.Welcome2.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome2.Animation.riv; sourceTree = "<group>"; };
-		DE258C442D8D63D1000AD866 /* Onboarding.Welcome3.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome3.Animation.riv; sourceTree = "<group>"; };
 		DE258C462D8D63D1000AD866 /* OnboardingSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlideView.swift; sourceTree = "<group>"; };
 		DE258C472D8D63D1000AD866 /* OnboardingWelcome1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcome1View.swift; sourceTree = "<group>"; };
 		DE258C482D8D63D1000AD866 /* OnboardingWelcome2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcome2View.swift; sourceTree = "<group>"; };
@@ -311,6 +308,9 @@
 		DE258D1B2D8D63D9000AD866 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		DE258D1C2D8D63D9000AD866 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		DE258D1F2D8D63D9000AD866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE258D2A2D8D66E9000AD866 /* Onboarding.Welcome1.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome1.Animation.riv; sourceTree = "<group>"; };
+		DE258D2B2D8D66E9000AD866 /* Onboarding.Welcome2.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome2.Animation.riv; sourceTree = "<group>"; };
+		DE258D2C2D8D66E9000AD866 /* Onboarding.Welcome3.Animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.Welcome3.Animation.riv; sourceTree = "<group>"; };
 		F5DE8DD902B279778C04ADDF /* Pods-AIOverall2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIOverall2.release.xcconfig"; path = "Target Support Files/Pods-AIOverall2/Pods-AIOverall2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -799,9 +799,9 @@
 		DE258C452D8D63D1000AD866 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE258C422D8D63D1000AD866 /* Onboarding.Welcome1.Animation.riv */,
-				DE258C432D8D63D1000AD866 /* Onboarding.Welcome2.Animation.riv */,
-				DE258C442D8D63D1000AD866 /* Onboarding.Welcome3.Animation.riv */,
+				DE258D2A2D8D66E9000AD866 /* Onboarding.Welcome1.Animation.riv */,
+				DE258D2B2D8D66E9000AD866 /* Onboarding.Welcome2.Animation.riv */,
+				DE258D2C2D8D66E9000AD866 /* Onboarding.Welcome3.Animation.riv */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1131,14 +1131,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE258D112D8D63D1000AD866 /* Onboarding.Welcome2.Animation.riv in Resources */,
 				DE258D122D8D63D1000AD866 /* ART.Loader.json in Resources */,
-				DE258D132D8D63D1000AD866 /* Onboarding.Welcome3.Animation.riv in Resources */,
-				DE258D142D8D63D1000AD866 /* Onboarding.Welcome1.Animation.riv in Resources */,
 				DE258BB22D8D629E000AD866 /* Assets.xcassets in Resources */,
 				DE258D222D8D63D9000AD866 /* Inter-Medium.ttf in Resources */,
 				DE258D232D8D63D9000AD866 /* FiraMath-Regular.otf in Resources */,
 				DE258D242D8D63D9000AD866 /* Inter-Regular.ttf in Resources */,
+				DE258D2D2D8D66E9000AD866 /* Onboarding.Welcome1.Animation.riv in Resources */,
+				DE258D2E2D8D66E9000AD866 /* Onboarding.Welcome2.Animation.riv in Resources */,
+				DE258D2F2D8D66E9000AD866 /* Onboarding.Welcome3.Animation.riv in Resources */,
 				DE258D252D8D63D9000AD866 /* Localizable.strings in Resources */,
 				DE258D262D8D63D9000AD866 /* Inter-SemiBold.ttf in Resources */,
 				DE258D272D8D63D9000AD866 /* Inter-Black.ttf in Resources */,
