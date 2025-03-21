@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Amplitude-iOS (4.10.0)
+  - Kingfisher (8.3.1)
+  - lottie-ios (4.5.1)
+  - Mantis (2.23.2)
+  - OtterScaleiOS (1.26)
+  - RiveRuntime (6.7.2)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+  - SwiftyStoreKit (0.16.1)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Amplitude-iOS
+  - Kingfisher
+  - lottie-ios
+  - Mantis
+  - OtterScaleiOS (from `https://github.com/AgentChe/OtterScaleiOS.git`)
+  - RiveRuntime
+  - RxCocoa
+  - RxSwift
+  - SwiftyStoreKit
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Amplitude-iOS
+    - Kingfisher
+    - lottie-ios
+    - Mantis
+    - RiveRuntime
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyStoreKit
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  OtterScaleiOS:
+    :git: https://github.com/AgentChe/OtterScaleiOS.git
+
+CHECKOUT OPTIONS:
+  OtterScaleiOS:
+    :commit: 12663a39c90d42b7ff6e6ad87a6dccea26ff763b
+    :git: https://github.com/AgentChe/OtterScaleiOS.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Amplitude-iOS: 7d8cdc3408ba35c2e68368fc7c692cd104606b94
+  Kingfisher: 3204d23de16b5ea53541c44ca5a8efb55741dec3
+  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  Mantis: 8a6fa3823be4551b3ab6f4a07964f55e2eecf2c2
+  OtterScaleiOS: 7797bb943c69572cd25a6118939ddb7c4684f03c
+  RiveRuntime: 208ef4af7502e8befee41df6ec0178d9ef6a1f9f
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: 8fd6ab6a18dcb6a5eb3d0cda81764cd5b47e7613
+
+COCOAPODS: 1.16.2
